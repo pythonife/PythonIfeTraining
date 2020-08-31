@@ -3,7 +3,7 @@
 ## sumEvenValue: This is function 2, this finds the sum of all numbers in the list that is divisible by 2.
  
 def fibonacci(n):
-    c = 2
+    c = 1
     SequenceList = [1,2] #initialize your list with 2 starting numbers 1&2
     while c < n: # loop from 0 until c is greater than n
         c = SequenceList[-1] + SequenceList[-2] #sum the last 2 numbers in the list.
